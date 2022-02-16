@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: reserve-item-service
-          image: egovframe/egovframe-msa-backend-reserve-item-service:k8s # TODO
+          image: overpassion/egovframe-msa-backend-reserve-item-service:k8s # TODO
           imagePullPolicy: Always
           ports:
             - containerPort: 80
